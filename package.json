@@ -12,8 +12,15 @@
         "type": "git",
         "url": "git+https://github.com/leny/emotion-meyer-reset.git"
     },
-    "files": ["dist"],
-    "keywords": ["emotion", "reset", "meyer", "eric"],
+    "files": [
+        "dist"
+    ],
+    "keywords": [
+        "emotion",
+        "reset",
+        "meyer",
+        "eric"
+    ],
     "author": "leny <info@flatland.be>",
     "license": "UNLICENSE",
     "bugs": {
@@ -21,7 +28,10 @@
     },
     "homepage": "https://github.com/leny/emotion-meyer-reset#readme",
     "lint-staged": {
-        "*.js": ["npx eslint --fix --cache", "git add"]
+        "*.js": [
+            "npx eslint --fix --cache",
+            "git add"
+        ]
     },
     "husky": {
         "hooks": {
