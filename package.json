@@ -12,9 +12,10 @@
         "type": "git",
         "url": "git+https://github.com/leny/emotion-meyer-reset.git"
     },
+    "files": ["dist"],
     "keywords": ["emotion", "reset", "meyer", "eric"],
     "author": "leny <info@flatland.be>",
-    "license": "MIT",
+    "license": "UNLICENSE",
     "bugs": {
         "url": "https://github.com/leny/emotion-meyer-reset/issues"
     },

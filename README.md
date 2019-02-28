@@ -5,15 +5,15 @@
 ## Usage
 
 	npm install --save emotion-meyer-reset
-	
+
 ### Javascript
 
 ```javascript
 	import {Global,css} from "@emotion/core";
 	import reset from "emotion-meyer-reset";
-	
+
 	// …
-	
+
 	<Global
 	  styles={css`
 	    ${reset}
@@ -30,4 +30,4 @@
 
 ## License
 
-The [MIT License](./LICENSE)
+[UNLICENSED (public domain)](./LICENSE)
