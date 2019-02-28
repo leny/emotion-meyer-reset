@@ -1,6 +1,6 @@
 {
     "name": "emotion-meyer-reset",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "Eric Meyer's reset for Emotion CSS-in-JS library.",
     "main": "dist/index.js",
     "scripts": {
