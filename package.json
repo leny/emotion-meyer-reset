@@ -2,10 +2,13 @@
     "name": "emotion-meyer-reset",
     "version": "0.1.0",
     "description": "Eric Meyer's reset for Emotion CSS-in-JS library.",
-    "main": "dist/index.js",
+    "main": "dist/cjs/index.js",
+    "module": "dist/esm/index.js",
     "scripts": {
-        "build": "npx babel src --out-dir dist",
-        "prepublishOnly": "npx babel src --out-dir dist",
+      "build:cjs": "npx babel src --env-name cjs --out-dir dist/cjs",
+      "build:esm": "npx babel src --env-name esm --out-dir dist/esm",
+        "build": "npm run build:cjs && npm run build:esm",
+        "prepublishOnly": "npm run build",
         "lint": "npx eslint --fix --cache src"
     },
     "repository": {
