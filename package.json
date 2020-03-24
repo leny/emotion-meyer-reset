@@ -50,7 +50,7 @@
     "eslint-plugin-prettier": "^3.0.1",
     "husky": "^3.0.0",
     "lint-staged": "^9.0.0",
-    "prettier": "^1.16.4"
+    "prettier": "^2.0.2"
   },
   "peerDependencies": {
     "emotion": ">=10.0.0"
